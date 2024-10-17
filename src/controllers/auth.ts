@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
-import { loginUser } from "../services/auth";
+import { loginUser, getUser } from "../services/auth";
+import { handleHttp } from "../utils/error.handle";
 
 const loginCtrl = async ({ body }: Request, res: Response) => {
   const { email, password } = body;
@@ -8,4 +9,15 @@ const loginCtrl = async ({ body }: Request, res: Response) => {
   res.send(responseUser);
 };
 
-export { loginCtrl };
+const userCtrl = async ({ params }: Request, res: Response) => {
+  try {
+    const { id } = params;
+    const responseUser = await getUser(Number(id));
+    const data = responseUser ? responseUser : "NOT_FOUND";
+    res.send(data);
+  } catch (error) {
+    handleHttp(res, "ERROR_GET_USER");
+  }
+};
+
+export { loginCtrl, userCtrl };

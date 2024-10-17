@@ -16,12 +16,22 @@ const loginUser = async ({ email, password }: Auth) => {
   const data = {
     token,
     user: {
-      id: checkIs.id,
-      email: checkIs.email,
-      name: checkIs.name,
+      id: checkIs.id
     },
   };
   return data;
 };
 
-export { loginUser };
+const getUser = async (id: number) => {
+  const userIs = DB.users.find((u) => u.id === id);
+  if (!userIs) throw Error;
+  const data = {
+    user: {
+      name: userIs.name,
+      email: userIs.email
+    },
+  };
+  return data;
+};
+
+export { loginUser, getUser };
