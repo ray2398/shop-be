@@ -6,5 +6,97 @@
       "email": "usuario@example.com",
       "password": "$2a$08$86Rbs6zE/80eGN7prTrHlOWwPfii92n8cBfEn4gbkWSHNLSfNtwcW"
     }
+  ],
+  "productos": [
+    {
+      "categoria": "Lácteos",
+      "items": [
+        {
+          "nombre": "Leche Descremada",
+          "fechaCaducidad": "2024-11-10"
+        },
+        {
+          "nombre": "Queso Gouda",
+          "fechaCaducidad": "2024-12-05"
+        },
+        {
+          "nombre": "Yogur Natural",
+          "fechaCaducidad": "2024-10-20"
+        },
+        {
+          "nombre": "Mantequilla sin Sal",
+          "fechaCaducidad": "2024-11-15"
+        },
+        {
+          "nombre": "Crema para Batir",
+          "fechaCaducidad": "2024-09-25"
+        },
+        {
+          "nombre": "Queso Mozzarella",
+          "fechaCaducidad": "2024-11-30"
+        },
+        {
+          "nombre": "Leche Entera",
+          "fechaCaducidad": "2024-10-18"
+        },
+        {
+          "nombre": "Yogur de Fresa",
+          "fechaCaducidad": "2024-10-28"
+        },
+        {
+          "nombre": "Queso Cottage",
+          "fechaCaducidad": "2024-12-12"
+        },
+        {
+          "nombre": "Leche Condensada",
+          "fechaCaducidad": "2025-01-05"
+        }
+      ]
+    },
+    {
+      "categoria": "Refrescos",
+      "items": [
+        {
+          "nombre": "Coca-Cola",
+          "fechaCaducidad": "2025-01-15"
+        },
+        {
+          "nombre": "Pepsi",
+          "fechaCaducidad": "2025-02-01"
+        },
+        {
+          "nombre": "Sprite",
+          "fechaCaducidad": "2025-03-10"
+        },
+        {
+          "nombre": "Fanta Naranja",
+          "fechaCaducidad": "2025-02-18"
+        },
+        {
+          "nombre": "Delaware Punch",
+          "fechaCaducidad": "2025-01-25"
+        },
+        {
+          "nombre": "7Up",
+          "fechaCaducidad": "2025-03-05"
+        },
+        {
+          "nombre": "Mirinda",
+          "fechaCaducidad": "2025-02-28"
+        },
+        {
+          "nombre": "Dr Pepper",
+          "fechaCaducidad": "2025-04-10"
+        },
+        {
+          "nombre": "Fresca",
+          "fechaCaducidad": "2025-03-20"
+        },
+        {
+          "nombre": "Manzanita Peñafiel",
+          "fechaCaducidad": "2025-01-30"
+        }
+      ]
+    }
   ]
 }
