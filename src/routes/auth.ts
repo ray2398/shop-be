@@ -4,6 +4,11 @@ import { checkJwt } from "../middleware/session";
 
 const router = Router();
 router.post("/login", loginCtrl);
-router.get("/user/:id", checkJwt, userCtrl);
+router.get("/:id", checkJwt, userCtrl);
+router.get("/isauthenticated/token", checkJwt, (req, res) => {
+  res.json({
+    message: "Token is valid",
+  });
+});
 
 export { router };
