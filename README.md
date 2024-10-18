@@ -35,13 +35,18 @@ npm install
 ```md
 npm run dev
 ```
+- Credenciales para iniciar sesión
+```md
+Correo electrónico: usuario@example.com
+Contraseña: usuario1234
+```
 
 ## Commands
 
 | Name               | Description                                           |
 |--------------------|-------------------------------------------------------|
 | `npm install`      | Instalar las bibliotecas.                             |
-| `npm run dev`      | Inicializar proyecto.                                 |
+| `npm run dev`      | Inicializar el proyecto.                              |
 
 ## License
 
