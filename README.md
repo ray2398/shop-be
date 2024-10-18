@@ -24,9 +24,9 @@ Node.js = ^20.18.0
 ```md
 git clone https://{user}@github.com/ray2398/shop-fe.git
 ```
-- Abra la carpeta del proyecto en el editor.
+- Abra la carpeta del proyecto en el editor
 ```
-- Ejecute el siguiente comando para instalar las bibliotecas.
+- Ejecute el siguiente comando para instalar las bibliotecas
 ```md
 npm install
 ```
