@@ -43,7 +43,7 @@ Contraseña: usuario1234
 
 ## Comandos
 
-| Name               | Description                                           |
+| Nombre             | Descripción                                           |
 |--------------------|-------------------------------------------------------|
 | `npm install`      | Instalar las bibliotecas.                             |
 | `npm run dev`      | Inicializar el proyecto.                              |
