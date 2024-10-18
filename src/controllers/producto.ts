@@ -5,10 +5,13 @@ import { handleHttp } from "../utils/error.handle";
 /* Function to get all products. */
 const getAllProducts = async (req: Request, res: Response) => {
   try {
-    const { lastVisible, search } = req.body;
+    const { lastVisible, search, category, dateStart, dateFinish } = req.body;
     const responseProducts = await getAll(
       lastVisible as number,
-      search as string
+      search as string,
+      category as string,
+      dateStart as string,
+      dateFinish as string,
     );
     res.status(200).send({ products: responseProducts });
   } catch (error) {
