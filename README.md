@@ -13,13 +13,13 @@
 </p>
 <!-- [END BADGES] -->
 
-## Requirements
+## Requerimientos
 
 ```
 Node.js = ^20.18.0
 ```
 
-## Project Settings
+## Proyecto
 - Clone el proyecto
 ```md
 git clone https://{user}@github.com/ray2398/shop-fe.git
@@ -41,7 +41,7 @@ Correo electrónico: usuario@example.com
 Contraseña: usuario1234
 ```
 
-## Commands
+## Comandos
 
 | Name               | Description                                           |
 |--------------------|-------------------------------------------------------|
