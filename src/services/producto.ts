@@ -8,20 +8,29 @@ const getAll = async (
   limit: number = 5
 ) => {
   let data = DB;
-  let allItems = data.productos[0].items
+  let allItems = data.productos[0].items;
+
+  if (search && search !== "") {
+    allItems = allItems.filter(
+      (producto) =>
+        producto.nombre.toLowerCase().includes(search) ||
+        producto.categoria.toLowerCase().includes(search) ||
+        producto.fechaCaducidad.includes(search)
+    );
+  }
 
   const paginatedItems = allItems.slice(lastVisible, lastVisible + limit);
 
   const lastVisibleId = lastVisible + paginatedItems.length;
 
   if (paginatedItems.length === 0) {
-    throw new Error('No products found');
+    throw new Error("No products found");
   }
-  
+
   return {
     results: paginatedItems,
     lastVisibleId,
-    totalProducts: allItems.length
+    totalProducts: allItems.length,
   };
 };
 

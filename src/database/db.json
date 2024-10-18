@@ -11,101 +11,121 @@
     {
       "items": [
         {
+          "id": 1,
           "nombre": "Leche Descremada",
           "fechaCaducidad": "10-11-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 2,
           "nombre": "Queso Gouda",
           "fechaCaducidad": "05-12-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 3,
           "nombre": "Yogur Natural",
           "fechaCaducidad": "20-10-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 4,
           "nombre": "Mantequilla sin Sal",
           "fechaCaducidad": "15-11-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 5,
           "nombre": "Crema para Batir",
           "fechaCaducidad": "25-09-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 6,
           "nombre": "Queso Mozzarella",
           "fechaCaducidad": "30-11-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 7,
           "nombre": "Leche Entera",
           "fechaCaducidad": "18-10-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 8,
           "nombre": "Yogur de Fresa",
           "fechaCaducidad": "28-10-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 9,
           "nombre": "Queso Cottage",
           "fechaCaducidad": "12-12-2024",
           "categoria": "Lácteos"
         },
         {
+          "id": 10,
           "nombre": "Leche Condensada",
           "fechaCaducidad": "05-01-2025",
           "categoria": "Lácteos"
         },
         {
+          "id": 11,
           "nombre": "Coca-Cola",
           "fechaCaducidad": "15-01-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 12,
           "nombre": "Pepsi",
           "fechaCaducidad": "01-02-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 13,
           "nombre": "Sprite",
           "fechaCaducidad": "10-03-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 14,
           "nombre": "Fanta Naranja",
           "fechaCaducidad": "18-02-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 15,
           "nombre": "Delaware Punch",
           "fechaCaducidad": "25-01-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 16,
           "nombre": "7Up",
           "fechaCaducidad": "05-03-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 17,
           "nombre": "Mirinda",
           "fechaCaducidad": "28-02-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 18,
           "nombre": "Dr Pepper",
           "fechaCaducidad": "10-04-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 19,
           "nombre": "Fresca",
           "fechaCaducidad": "20-03-2025",
           "categoria": "Refrescos"
         },
         {
+          "id": 20,
           "nombre": "Manzanita Peñafiel",
           "fechaCaducidad": "30-01-2025",
           "categoria": "Refrescos"

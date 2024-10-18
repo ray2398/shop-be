@@ -8,6 +8,7 @@ router.get("/:id", checkJwt, userCtrl);
 router.get("/isauthenticated/token", checkJwt, (req, res) => {
   res.json({
     message: "Token is valid",
+    valid: true,
   });
 });
 
